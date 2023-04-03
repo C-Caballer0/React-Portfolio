@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #53a2be;
 }
 
 .App-logo {
@@ -13,15 +14,32 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1,h2,p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  background-color: #0A2239;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20;
   color: white;
+}
+
+.content {
+  min-height: 100vh;  
+}
+
+.footer{
+  background-color: #132e32;
+  text-align: right;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  min-width: 100vw;
 }
 
 .App-link {
